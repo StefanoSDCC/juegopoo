@@ -1,11 +1,11 @@
 import java.util.List;
 
-public class GameScreen {
-    public void render(Player player, List<Obstacle> obstacles) {
-        // Renderización básica en consola
-        System.out.println("Player at (" + player.getX() + ", " + player.getY() + ")");
-        for (Obstacle obstacle : obstacles) {
-            System.out.println("Obstacle at (" + obstacle.getX() + ", " + obstacle.getY() + ")");
+public class PantallaDeJuego {
+    public void renderizar(Jugador jugador, List<Obstaculo> obstaculos) {
+        
+        System.out.println("Jugador en (" + jugador.getX() + ", " + jugador.getY() + ")");
+        for (Obstaculo obstaculo : obstaculos) {
+            System.out.println("Obstáculo en (" + obstaculo.getX() + ", " + obstaculo.getY() + ")");
         }
     }
 }
