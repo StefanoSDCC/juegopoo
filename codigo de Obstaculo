@@ -1,17 +1,17 @@
-public class Obstacle {
+public class Obstaculo {
     private int x;
     private int y;
 
-    public Obstacle(int x, int y) {
+    public Obstaculo(int x, int y) {
         this.x = x;
         this.y = y;
     }
 
-    public void update() {
-        // Movimiento básico hacia la izquierda
+    public void actualizar() {
+      
         x -= 2;
         if (x < 0) {
-            x = 800; // Resetear a la derecha de la pantalla
+            x = 800; 
         }
     }
 
